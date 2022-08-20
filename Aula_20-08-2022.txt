@@ -1,0 +1,28 @@
+Agsi
+20/08/2022
+
+IP: 192.168.10.107
+Senha Padrão: 8Tg6w2b7q8
+
+SQL Server
+Alt + F1
+
+Tools -> Options
+Ctrl + 3 - Select top 100
+Ctrl + 4 - Select count
+
+Pattern's
+-> Select *
+	From
+	Inner Join (chave com chave)
+
+Join's
+Inner 		-> A informação tem que estar nas duas tabelas; (mais rápido)
+Left 		-> se tem na tabela da esquerda, e ignora a tabela da direita
+Right 		-> se houver na tabela da direira, ignora a da esquerda
+Full Join	-> ignora, mas senão houver nas duas tabelas, vai trazer campo nullo
+Alter Join	-> (x)
+Join		-> (desorganizado) duas tabelas se cruzam, pode duplicar tudo se não for bem feito
+
+Quando for ligar chaves primárias utilizar INNER, senão melhor usar o LEFT
+
